@@ -74,3 +74,50 @@ body{
   font-size: 18px;
 }
 
+.showPasswordIcon{
+  cursor: pointer;
+  margin-left: 16px;
+  color: dodgerblue;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.showPasswordIcon:hover{
+  color: darkblue;
+}
+
+.copyIcon,
+.editIcon,
+.deleteIcon{
+  cursor: pointer;
+  color: gray;
+  font-size: 20px;
+  transition: color 0.3s;
+  margin-left: 10px;
+}
+
+.copyIcon:hover,
+.editIcon:hover,
+.deleteIcon.hover{
+  color: dodgerblue;
+}
+
+.submitButton{
+  background-color: dodgerblue;
+  color: #fff;
+  padding: 12px 24px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 12px 0;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.noData{
+  text-align: center;
+  color: darkgray;
+  margin-top: 20px;
+  font-size: 18px;
+}
