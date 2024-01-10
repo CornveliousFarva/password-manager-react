@@ -16,3 +16,23 @@ body{
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
 }
+
+.heading{
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.subHeading{
+  font-size: 20px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#alert{
+  color: green;
+  margin-left: 5px;
+}
+
